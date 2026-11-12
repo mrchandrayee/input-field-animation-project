@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#323e55">
+  <title>Input Field Animation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="demo">
+    <header class="heading">
+      <p class="eyebrow">CSS INTERACTION</p>
+      <h1>Input Field Animation</h1>
+      <p class="intro">Focus an input or start typing to animate its label.</p>
+    </header>
+
+    <form class="input-form" id="nameForm" autocomplete="off">
+      <div class="inputBox">
+        <input id="firstName" name="firstName" type="text" value="Coding" required>
+        <span>First Name</span>
+      </div>
+
+      <div class="inputBox">
+        <input id="lastName" name="lastName" type="text" value="Stella" required>
+        <span>Last Name</span>
+      </div>
+
+      <button class="submit-button" type="submit">Preview values</button>
+      <p class="form-result" id="formResult" role="status" aria-live="polite">Coding Stella</p>
+    </form>
+
+    <footer>HTML5 <span>•</span> CSS3 <span>•</span> JavaScript</footer>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
